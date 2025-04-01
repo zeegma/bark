@@ -1,6 +1,8 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/zeegma/pylost-frontend.git
+	branch = main
 [submodule "backend"]
 	path = backend
 	url = https://github.com/zeegma/pylost-backend.git
+	branch = main
