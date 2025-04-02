@@ -20,7 +20,7 @@ jobs:
           submodules: recursive
 
       - name: Make script executable
-        run: chmod +x ./update-submodules.sh
+        run: chmod +x ./script.sh
 
       - name: Run update script
         run: ./script.sh
