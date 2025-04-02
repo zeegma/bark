@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configure Git
-git config --global user.name "GitHub Actions Bot"
-git config --global user.email "actions@github.com"
+git config --local user.name "github-actions [bot]"
+git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
 # Update submodules
 git submodule update --remote --recursive
