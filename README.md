@@ -67,13 +67,14 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
 - **Claim Form Review:** Access and verify all submitted claim forms
 - **Status Management:** Update item status (claimed/unclaimed)
 - **Efficient Record Keeping:** Replace manual paper-based logging with digital records
-
+  
 <!-- TECHNOLOGIES USED -->
 ## Technologies
 
 - **[Svelte](https://svelte.dev/)**: Main framework for building the user interface, utilizing Vite for faster development and modern tooling like hot module replacement.
 - **[Python](https://www.python.org/)**: A versatile and powerful programming language used for backend development, known for its simplicity and extensive libraries.  
-- **[FastAPI](https://fastapi.tiangolo.com/)**: A modern, fast (high-performance) web framework for building APIs with Python, based on standard Python type hints.  
+- **[Django](https://www.djangoproject.com/)**: A high-level Python web framework that promotes rapid development, clean design, and a secure backend for handling data and APIs.
+- **[Supabase](https://supabase.com/)**: An open-source backend-as-a-service platform used for authentication, real-time databases, and storage.
 
 ### Deployment and Hosting
 - **[Netlify](https://www.netlify.com/)**: A powerful platform for deploying and hosting modern web applications, offering continuous deployment, serverless functions, and global CDN for fast performance.
@@ -82,8 +83,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
 ### Development Tools  
 - **[Git](https://git-scm.com/)**: Distributed version control system for tracking code changes and collaboration.  
 - **[GitHub](https://github.com/)**: Platform for hosting Git repositories, enabling collaborative development and version control.  
-- **[Node.js](https://nodejs.org/)**: JavaScript runtime environment for executing server-side code and building scalable applications.  
-- **[npm](https://www.npmjs.com/)**: Package manager for JavaScript, used to install and manage dependencies.  
+- **[GitHub Actions](https://github.com/features/actions)**: Automation and CI/CD tool used as a bot for tasks like code testing, deployment, and workflow automation.  
 - **[VS Code](https://code.visualstudio.com/)**: Recommended code editor with powerful features like IntelliSense, debugging, and extensions for efficient development.
 
 <!-- APPLICATION SNAPSHOTS -->
@@ -134,8 +134,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/143507354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/krislette">krislette</a></td>
         <td>
-          <b>Frontend Developer:</b> Acelle oversaw the entire development process, created the lexer, and managed the tokenization process, converting features into tokens. 
-          Acelle built the backbone of the backend, set up the server, and deployed both the frontend and backend. 
+          <b>Frontend Developer:</b> Acelle developed the admin dashboard and claimants page.
         </td>
       </tr>
       <tr>
@@ -143,7 +142,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/116869096?s=400&u=43146b191775802d9ab2f0f721b452ffc52c9efa&v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/feiryrej">feiryrej</a></td>
         <td>
-          <b>Backend Developer:</b> Regina is responsible for making the landing page and overall UI refinement across all pages including the terminal and lexeme table. She also name the language. 
+          <b>Backend Developer:</b> Regina is responsible for making the API Endpoints
         </td>
       </tr>
       <tr>
@@ -151,8 +150,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/71052354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/hjcarlos">hjcarlos</a></td>
         <td>
-          <b>Frontend Developer:</b> Henry is responsible for the interface displaying generated lexemes in the terminal page  and worked on the syntax for operation symbols and 
-          for-loop statements in the Square programming language.
+          <b>Frontend Developer:</b> Henry built the entire client-side interface.
         </td>
       </tr>
       <tr>
@@ -160,7 +158,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/141235021?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/sykeruzn">sykeruzn</a></td>
         <td>
-          <b>Backend Developer:</b> Syke is assigned to modify the changes in the programming language documentation, proofread, and finalize the content in all sections.
+          <b>Backend Developer:</b> Syke is assigned identify the purpose and protocol
         </td>
       </tr>
       <tr>
@@ -168,8 +166,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/116869089?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/perbik">perbik</a></td>
         <td>
-          <b>Frontend Developer:</b> Fervicmar contributes in the development, particularly in defining and implementing the tokenization process by identifying and 
-          categorizing tokens, ensuring accurate lexical analysis.
+          <b>Frontend Developer:</b> Fervicmar worked on the admin login, registration, and items page.
         </td>
       </tr>
       <tr>
@@ -177,8 +174,7 @@ Worry no more! PUP-BARK is a lost-and-found web application designed to streamli
         <td><img src="https://avatars.githubusercontent.com/u/65350664?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/HansQueja">HansQueja</a></td>
         <td>
-          <b>Backend Developer:</b> Hans is one of the developers responsible in defining and implementing the tokenization process. He also contributes in identifying and 
-          categorizing tokens, standard processes in lexical analysis. He is also responsible for tweaking additional tokens.
+          <b>Backend Developer:</b> Hans is responsible for seeding the data.
         </td>
       </tr>
     </tbody>
